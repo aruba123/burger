@@ -6,7 +6,29 @@ var connection;
 
 if (process.env.JASWDB_URL)  {
     //DB is JawsDB on Heroku
+
+    // "production": {
+    //     "username": "q734httncql7kcp0",
+    //     "password": "iua4j1o7jkbnndiz",
+    //     "database": "database_production",
+    //     "host": "op2hpcwcbxb1t4z9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    //     "dialect": "mysql"
+    //   },
+
+
+
+
     connection = mysql.createConnection(process.env.JAWSDB_URL);
+    
+
+
+
+   
+
+
+
+
+    
 
 } else {
         // DB is local on localhost
